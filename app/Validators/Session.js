@@ -8,7 +8,7 @@ class Session {
   get rules () {
     return {
       email: 'required|email',
-      passowrd: 'required'
+      password: 'required'
     }
   }
 }
